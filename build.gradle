@@ -18,6 +18,7 @@ project.ext.lwjglVersion = "3.3.0"
 project.ext.lwjglNatives = "natives-windows"
 
 dependencies {
+    implementation 'ch.bildspur:artnet4j:0.6.2'
     implementation 'org.apache.logging.log4j:log4j-api'
     implementation 'org.apache.logging.log4j:log4j-core'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.1'
